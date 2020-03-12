@@ -1,0 +1,2 @@
+string mylib_app_name
+string mylib_public_string

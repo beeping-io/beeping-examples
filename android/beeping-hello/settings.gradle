@@ -1,0 +1,2 @@
+include ':app', ':AndroidBeepingCore'
+rootProject.name='Beeping-hello'
