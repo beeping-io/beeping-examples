@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360D733C24164146002BA2F7 /* Beeping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A5C8772413C590006FD321 /* Beeping.framework */; };
+		360D733D24164146002BA2F7 /* Beeping.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36A5C8772413C590006FD321 /* Beeping.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36A5C8422413C164006FD321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C8412413C164006FD321 /* AppDelegate.m */; };
+		36A5C8452413C164006FD321 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C8442413C164006FD321 /* SceneDelegate.m */; };
+		36A5C8482413C164006FD321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C8472413C164006FD321 /* ViewController.m */; };
+		36A5C84B2413C164006FD321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C8492413C164006FD321 /* Main.storyboard */; };
+		36A5C84D2413C166006FD321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C84C2413C166006FD321 /* Assets.xcassets */; };
+		36A5C8502413C166006FD321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C84E2413C166006FD321 /* LaunchScreen.storyboard */; };
+		36A5C8532413C166006FD321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C8522413C166006FD321 /* main.m */; };
+		36A5C85D2413C166006FD321 /* beeping_helloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C85C2413C166006FD321 /* beeping_helloTests.m */; };
+		36A5C8682413C166006FD321 /* beeping_helloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C8672413C166006FD321 /* beeping_helloUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36A5C8592413C166006FD321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A5C8352413C164006FD321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36A5C83C2413C164006FD321;
+			remoteInfo = "beeping-hello";
+		};
+		36A5C8642413C166006FD321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A5C8352413C164006FD321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36A5C83C2413C164006FD321;
+			remoteInfo = "beeping-hello";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		360D733E24164146002BA2F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				360D733D24164146002BA2F7 /* Beeping.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36A5C83D2413C164006FD321 /* beeping-hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beeping-hello.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A5C8402413C164006FD321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36A5C8412413C164006FD321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36A5C8432413C164006FD321 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		36A5C8442413C164006FD321 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		36A5C8462413C164006FD321 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36A5C8472413C164006FD321 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36A5C84A2413C164006FD321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36A5C84C2413C166006FD321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36A5C84F2413C166006FD321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36A5C8512413C166006FD321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A5C8522413C166006FD321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36A5C8582413C166006FD321 /* beeping-helloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beeping-helloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A5C85C2413C166006FD321 /* beeping_helloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beeping_helloTests.m; sourceTree = "<group>"; };
+		36A5C85E2413C166006FD321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A5C8632413C166006FD321 /* beeping-helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beeping-helloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A5C8672413C166006FD321 /* beeping_helloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beeping_helloUITests.m; sourceTree = "<group>"; };
+		36A5C8692413C166006FD321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A5C8772413C590006FD321 /* Beeping.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Beeping.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36A5C83A2413C164006FD321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360D733C24164146002BA2F7 /* Beeping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A5C8552413C166006FD321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A5C8602413C166006FD321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36A5C8342413C164006FD321 = {
+			isa = PBXGroup;
+			children = (
+				36A5C83F2413C164006FD321 /* beeping-hello */,
+				36A5C85B2413C166006FD321 /* beeping-helloTests */,
+				36A5C8662413C166006FD321 /* beeping-helloUITests */,
+				36A5C83E2413C164006FD321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36A5C83E2413C164006FD321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C83D2413C164006FD321 /* beeping-hello.app */,
+				36A5C8582413C166006FD321 /* beeping-helloTests.xctest */,
+				36A5C8632413C166006FD321 /* beeping-helloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36A5C83F2413C164006FD321 /* beeping-hello */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C8772413C590006FD321 /* Beeping.framework */,
+				36A5C8402413C164006FD321 /* AppDelegate.h */,
+				36A5C8412413C164006FD321 /* AppDelegate.m */,
+				36A5C8432413C164006FD321 /* SceneDelegate.h */,
+				36A5C8442413C164006FD321 /* SceneDelegate.m */,
+				36A5C8462413C164006FD321 /* ViewController.h */,
+				36A5C8472413C164006FD321 /* ViewController.m */,
+				36A5C8492413C164006FD321 /* Main.storyboard */,
+				36A5C84C2413C166006FD321 /* Assets.xcassets */,
+				36A5C84E2413C166006FD321 /* LaunchScreen.storyboard */,
+				36A5C8512413C166006FD321 /* Info.plist */,
+				36A5C8522413C166006FD321 /* main.m */,
+			);
+			path = "beeping-hello";
+			sourceTree = "<group>";
+		};
+		36A5C85B2413C166006FD321 /* beeping-helloTests */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C85C2413C166006FD321 /* beeping_helloTests.m */,
+				36A5C85E2413C166006FD321 /* Info.plist */,
+			);
+			path = "beeping-helloTests";
+			sourceTree = "<group>";
+		};
+		36A5C8662413C166006FD321 /* beeping-helloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C8672413C166006FD321 /* beeping_helloUITests.m */,
+				36A5C8692413C166006FD321 /* Info.plist */,
+			);
+			path = "beeping-helloUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36A5C83C2413C164006FD321 /* beeping-hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A5C86C2413C166006FD321 /* Build configuration list for PBXNativeTarget "beeping-hello" */;
+			buildPhases = (
+				36A5C8392413C164006FD321 /* Sources */,
+				36A5C83A2413C164006FD321 /* Frameworks */,
+				36A5C83B2413C164006FD321 /* Resources */,
+				360D733E24164146002BA2F7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "beeping-hello";
+			productName = "beeping-hello";
+			productReference = 36A5C83D2413C164006FD321 /* beeping-hello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36A5C8572413C166006FD321 /* beeping-helloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A5C86F2413C166006FD321 /* Build configuration list for PBXNativeTarget "beeping-helloTests" */;
+			buildPhases = (
+				36A5C8542413C166006FD321 /* Sources */,
+				36A5C8552413C166006FD321 /* Frameworks */,
+				36A5C8562413C166006FD321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36A5C85A2413C166006FD321 /* PBXTargetDependency */,
+			);
+			name = "beeping-helloTests";
+			productName = "beeping-helloTests";
+			productReference = 36A5C8582413C166006FD321 /* beeping-helloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36A5C8622413C166006FD321 /* beeping-helloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A5C8722413C166006FD321 /* Build configuration list for PBXNativeTarget "beeping-helloUITests" */;
+			buildPhases = (
+				36A5C85F2413C166006FD321 /* Sources */,
+				36A5C8602413C166006FD321 /* Frameworks */,
+				36A5C8612413C166006FD321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36A5C8652413C166006FD321 /* PBXTargetDependency */,
+			);
+			name = "beeping-helloUITests";
+			productName = "beeping-helloUITests";
+			productReference = 36A5C8632413C166006FD321 /* beeping-helloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36A5C8352413C164006FD321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Beeping LLC";
+				TargetAttributes = {
+					36A5C83C2413C164006FD321 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					36A5C8572413C166006FD321 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36A5C83C2413C164006FD321;
+					};
+					36A5C8622413C166006FD321 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36A5C83C2413C164006FD321;
+					};
+				};
+			};
+			buildConfigurationList = 36A5C8382413C164006FD321 /* Build configuration list for PBXProject "beeping-hello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36A5C8342413C164006FD321;
+			productRefGroup = 36A5C83E2413C164006FD321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36A5C83C2413C164006FD321 /* beeping-hello */,
+				36A5C8572413C166006FD321 /* beeping-helloTests */,
+				36A5C8622413C166006FD321 /* beeping-helloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36A5C83B2413C164006FD321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A5C8502413C166006FD321 /* LaunchScreen.storyboard in Resources */,
+				36A5C84D2413C166006FD321 /* Assets.xcassets in Resources */,
+				36A5C84B2413C164006FD321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A5C8562413C166006FD321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A5C8612413C166006FD321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36A5C8392413C164006FD321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A5C8482413C164006FD321 /* ViewController.m in Sources */,
+				36A5C8422413C164006FD321 /* AppDelegate.m in Sources */,
+				36A5C8532413C166006FD321 /* main.m in Sources */,
+				36A5C8452413C164006FD321 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A5C8542413C166006FD321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A5C85D2413C166006FD321 /* beeping_helloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A5C85F2413C166006FD321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A5C8682413C166006FD321 /* beeping_helloUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36A5C85A2413C166006FD321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36A5C83C2413C164006FD321 /* beeping-hello */;
+			targetProxy = 36A5C8592413C166006FD321 /* PBXContainerItemProxy */;
+		};
+		36A5C8652413C166006FD321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36A5C83C2413C164006FD321 /* beeping-hello */;
+			targetProxy = 36A5C8642413C166006FD321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36A5C8492413C164006FD321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36A5C84A2413C164006FD321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36A5C84E2413C166006FD321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36A5C84F2413C166006FD321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36A5C86A2413C166006FD321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36A5C86B2413C166006FD321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36A5C86D2413C166006FD321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74C3RMTPD8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/beeping-hello",
+				);
+				INFOPLIST_FILE = "beeping-hello/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.beeping.capp.beeping-hello";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36A5C86E2413C166006FD321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74C3RMTPD8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/beeping-hello",
+				);
+				INFOPLIST_FILE = "beeping-hello/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.beeping.capp.beeping-hello";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36A5C8702413C166006FD321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74C3RMTPD8;
+				INFOPLIST_FILE = "beeping-helloTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.beeping.capp.beeping-helloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beeping-hello.app/beeping-hello";
+			};
+			name = Debug;
+		};
+		36A5C8712413C166006FD321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74C3RMTPD8;
+				INFOPLIST_FILE = "beeping-helloTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.beeping.capp.beeping-helloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beeping-hello.app/beeping-hello";
+			};
+			name = Release;
+		};
+		36A5C8732413C166006FD321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74C3RMTPD8;
+				INFOPLIST_FILE = "beeping-helloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.beeping.capp.beeping-helloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "beeping-hello";
+			};
+			name = Debug;
+		};
+		36A5C8742413C166006FD321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74C3RMTPD8;
+				INFOPLIST_FILE = "beeping-helloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.beeping.capp.beeping-helloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "beeping-hello";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36A5C8382413C164006FD321 /* Build configuration list for PBXProject "beeping-hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A5C86A2413C166006FD321 /* Debug */,
+				36A5C86B2413C166006FD321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A5C86C2413C166006FD321 /* Build configuration list for PBXNativeTarget "beeping-hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A5C86D2413C166006FD321 /* Debug */,
+				36A5C86E2413C166006FD321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A5C86F2413C166006FD321 /* Build configuration list for PBXNativeTarget "beeping-helloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A5C8702413C166006FD321 /* Debug */,
+				36A5C8712413C166006FD321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A5C8722413C166006FD321 /* Build configuration list for PBXNativeTarget "beeping-helloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A5C8732413C166006FD321 /* Debug */,
+				36A5C8742413C166006FD321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36A5C8352413C164006FD321 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Beeping {
+  umbrella header "Beeping.h"
+
+  export *
+  module * { export * }
+}
